@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog</title>
+  <subtitle>hexo tranquilpeak</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://firm66.github.io/blog/"/>
+  <updated>2016-08-10T03:29:39.491Z</updated>
+  <id>https://firm66.github.io/blog/</id>
+  
+  <author>
+    <name>firm66</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+github搭建个人博客</title>
+    <link href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
+    <id>https://firm66.github.io/blog/2016/08/10/技术板块/</id>
+    <published>2016-08-10T01:47:13.000Z</published>
+    <updated>2016-08-10T03:29:39.491Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>找了很多主题终于找到一个自己喜欢的了，这是主题是tranquilpeak，花了很长时间配置，终于弄好了，很开森。</p>
+<a id="more"></a>
+<hr>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>   这个博客要用markdown语法来写，不过不难，<br>  可以参考了下面几个网站：</p>
+<ul>
+<li><a href="https://jayzangwill.github.io/blog/index.html" target="_blank" rel="external">https://jayzangwill.github.io/blog/index.html</a></li>
+<li><a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md</a></li>
+<li><a href="https://hexo.io/zh-cn/api/" target="_blank" rel="external">https://hexo.io/zh-cn/api/</a></li>
+</ul>
+<hr>
+<h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;找了很多主题终于找到一个自己喜欢的了，这是主题是tranquilpeak，花了很长时间配置，终于弄好了，很开森。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术板块" scheme="https://firm66.github.io/blog/categories/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
+    
+    
+      <category term="hexo" scheme="https://firm66.github.io/blog/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>

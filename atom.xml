@@ -122,9 +122,9 @@
     <link href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
     <id>https://firm66.github.io/blog/2016/08/10/技术板块/</id>
     <published>2016-08-10T01:47:13.000Z</published>
-    <updated>2016-08-12T07:14:55.147Z</updated>
+    <updated>2016-08-12T07:17:40.593Z</updated>
     
-    <content type="html"><![CDATA[<p>  &emsp;&emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。<a id="more"></a><br><!--toc--></p>
+    <content type="html"><![CDATA[<p>  &emsp;&emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。<br>  <a id="more"></a><br><!--toc--></p>
 <hr>
 <h5 id="如何写博客"><a href="#如何写博客" class="headerlink" title="如何写博客"></a>如何写博客</h5><p>  <code>hexo new &quot;文件名&quot;，找到source/_posts路径下的 .md文件开始编写，要用Markdown语法，此外用到的images文件夹要放在 public/2016/08/10/技术板块 类似的目录下</code></p>
 <p>  <code>hexo generate(或者 hexo g) 更新博客</code></p>
@@ -147,7 +147,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;  &amp;emsp;&amp;emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。
+      &lt;p&gt;  &amp;emsp;&amp;emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。&lt;br&gt;
     
     </summary>
     

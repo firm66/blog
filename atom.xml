@@ -63,9 +63,9 @@
     <link href="https://firm66.github.io/blog/2016/08/11/%E5%88%B7%E6%9C%BA/"/>
     <id>https://firm66.github.io/blog/2016/08/11/刷机/</id>
     <published>2016-08-11T02:17:47.000Z</published>
-    <updated>2016-08-11T02:43:29.282Z</updated>
+    <updated>2016-08-12T07:29:08.931Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;很多机友都不太清楚如何给魅族MX进行固件升级，也就是常说的刷机，那就让小编来教教你吧。<br><a id="more"></a></p>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;很多机友都不太清楚如何给魅族MX进行固件升级，也就是常说的刷机，那就让小编来教教你吧。<a id="more"></a></p>
 <h3 id="法一、用电脑下载固件（系统）："><a href="#法一、用电脑下载固件（系统）：" class="headerlink" title="法一、用电脑下载固件（系统）："></a>法一、用电脑下载固件（系统）：</h3><p>1.在电脑上先下载想要刷机的那个系统（可以去魅族官网下载）。<br>2.通过USB连接线将电脑与魅族手机连接，并将update.bin文件拷贝至手机磁盘（SD卡）根目录下，<br>3.断开USB连接，关闭魅族MX的电源。<br>4.开机同时长按“电源键”及“音量+键”，进入刷机页面（如图），<br><img src="photos/1.png" alt="photos_1"><br>5.直至出现“系统更新SystemUpgrade”，<br>6.点击“系统更新System Upgrade”升级；这里要补充的一点是，如果你的手机已经Root了，就一定要清楚数据。以免刷机出现错误。即使是没root的都建议选择清楚数据，比较升级系统肯定会带来新的数据，建议把旧的数据清楚掉。至于App软件那些，可以升级后再去下载。<br>（“重新启动Restart”是退出升级）<br><img src="photos/2.png" alt="photos_1"><br><img src="photos/3.png" alt="photos_1"><br>7.升级完成后，点击设置，关于手机。到那里可以查看自己的手机系统是否更新成功。如下图所示：<br><img src="photos/6.png" alt="photos_1"><br>注：(1).升级过程当中不允许断电。<br>(2).手机升级系统之前一定要做好数据备份，以免数据丢失。<br>(3).也可以在第2步（将update.bin文件拷贝至手机磁盘根目录下）之后点击update.bin 固件，直接进入系统升级。<br><img src="photos/4.png" alt="photos_1"><br><img src="photos/5.png" alt="photos_1"></p>
 <hr>
 <h3 id="法二、用手机下载固件"><a href="#法二、用手机下载固件" class="headerlink" title="法二、用手机下载固件"></a>法二、用手机下载固件</h3><p>1.刷机包ROM的获取： 登陆“魅族”官网，在首页点击“服务支持”选项，<br><img src="photos/7.png" alt="photos_1"><br>2.接着在打开的“软件下载“列表中选择相应的ROM包进入下载页面。<br><img src="photos/8.png" alt="photos_1"><br><img src="photos/9.png" alt="photos_1"><br>3.MX3刷机过程：将下载到的“update.bin”文件拷贝到SD卡任意目录下。然后打开系统自带的“文档”应用，点击刚刚拷贝进去的ROM文件，就可以实现刷机操作啦。<br><img src="photos/4.png" alt="photos_1"><br><img src="photos/5.png" alt="photos_1"></p>
@@ -75,7 +75,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&amp;emsp;&amp;emsp;很多机友都不太清楚如何给魅族MX进行固件升级，也就是常说的刷机，那就让小编来教教你吧。&lt;br&gt;
+      &lt;p&gt;&amp;emsp;&amp;emsp;很多机友都不太清楚如何给魅族MX进行固件升级，也就是常说的刷机，那就让小编来教教你吧。
     
     </summary>
     

@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://firm66.github.io/blog/"/>
-  <updated>2016-08-11T02:43:29.282Z</updated>
+  <updated>2016-08-12T02:19:39.627Z</updated>
   <id>https://firm66.github.io/blog/</id>
   
   <author>
@@ -14,6 +14,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>phpstudy安装教程</title>
+    <link href="https://firm66.github.io/blog/2016/08/12/phpstudy%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    <id>https://firm66.github.io/blog/2016/08/12/phpstudy安装教程/</id>
+    <published>2016-08-12T00:27:03.000Z</published>
+    <updated>2016-08-12T02:19:39.627Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;phpStudy是一个PHP调试环境的程序集成包。我们学前台的用来搭建服务器很好用，不过node更好用一点。。<a id="more"></a>这里我们先学一下phpstudy安装。</p>
+<hr>
+<h5 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h5><p>大家可以百度一下phpstudy和SQLyog，然后点击下载即可!&emsp;大家也可以点此<a href="http://pan.baidu.com/s/1bpgHVPX" target="_blank" rel="external">直接下载</a>。</p>
+<h5 id="2-安装"><a href="#2-安装" class="headerlink" title="2.安装"></a>2.安装</h5><p>首先点击phpstudy安装包，会弹出如下界面。<br><img src="images/01.png" alt="images_1"><br>点击选择下一步，进入安装路径选择界面。这里小编建议选择除了C盘以外的硬盘。在这里，小编选择的是F盘的安装路径，朋友们可以根据自己的需要选择安装路径。如下图所示：</p>
+<p><img src="images/02.png" alt="images_1"><br>然后单击下一步，安装你要调试的程序安装路径，也就是网站源码放置位置，这个大家可以随意指定路径，但是文件名必须以WWW开头。</p>
+<p><img src="images/03.png" alt="images_1"><br>然后，单机下一步即可！进入安装组件文件界面。一般情况下，大多数的php程序都会选择Apach&amp;PHP。没有经验的朋友最好选择默认安装的，如下所示：</p>
+<p><img src="images/04.png" alt="images_1"><br>点击下一步，如图所示，不用管它，点下一步即可</p>
+<p><img src="images/05.png" alt="images_1"><br>点击安装就可以了<br><img src="images/06.png" alt="images_1"></p>
+<p>然后安装SQLyog，[SQLyog 是一个易于使用的、快速而简洁的图形化管理MYSQL数据库的工具，它能够在任何地点有效地管理你的数据库]。 点击打开程序，选择语言，选择下一步<br><img src="images/07.png" alt="images_1"></p>
+<p>选择安装路径，这里不必和小编的一样，然后点击安装即可，如下图所示：</p>
+<p><img src="images/08.png" alt="images_1"></p>
+<p>安装完后启用phpstudy，Apache和MySQL都是绿色表明安装成功，如图所示:</p>
+<p><img src="images/09.png" alt="images_1"></p>
+<p>对于没有安装成功的，小编有一下几种解决办法，依情况做相应的修改。安装成功的可以跳过这一步</p>
+<p><img src="images/10.png" alt="images_1"><br><img src="images/11.png" alt="images_1"></p>
+<h5 id="3-使用"><a href="#3-使用" class="headerlink" title="3.使用"></a>3.使用</h5><p>打开SQLyog，用户名和密码默认都是root,点击连接，如下图所示，<br>修改mysql密码请使用phpstudy,『其他选项菜单』-『MySQL设置』-『设置或修改密码』。 </p>
+<p><img src="images/12.png" alt="images_1"><br>接下来把你要测试的文件 放在上面创建的WWW文件夹里,在浏览器里输入localhost:端口号/…<br>即可预览效果，这里小编的端口号设置成了8090，用此预览Ajax写的文件特别好用。</p>
+<p><img src="images/13.png" alt="images_1"></p>
+<h5 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h5><p>phpstudy的默认端口是<a href="http://localhost:80/" target="_blank" rel="external">http://localhost:80/</a>…</p>
+<p>hexo博客的端口是<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>…</p>
+<p>node服务器的端口是<a href="http://localhost:3000/" target="_blank" rel="external">http://localhost:3000/</a>…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;emsp;&amp;emsp;phpStudy是一个PHP调试环境的程序集成包。我们学前台的用来搭建服务器很好用，不过node更好用一点。。
+    
+    </summary>
+    
+      <category term="技术板块" scheme="https://firm66.github.io/blog/categories/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
+    
+    
+      <category term="软件安装" scheme="https://firm66.github.io/blog/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
   
   <entry>
     <title>魅族MX手机刷机教程（固件升级）</title>
@@ -79,7 +122,7 @@
     <link href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
     <id>https://firm66.github.io/blog/2016/08/10/技术板块/</id>
     <published>2016-08-10T01:47:13.000Z</published>
-    <updated>2016-08-11T02:45:32.130Z</updated>
+    <updated>2016-08-12T00:34:17.225Z</updated>
     
     <content type="html"><![CDATA[<p>  &emsp;&emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。<br><a id="more"></a></p>
 <hr>
@@ -89,7 +132,7 @@
 <li><a href="https://hexo.io/zh-cn/api/" target="_blank" rel="external">hexo官方文档</a></li>
 </ul>
 <hr>
-<h5 id="如何写博客"><a href="#如何写博客" class="headerlink" title="如何写博客"></a>如何写博客</h5><p>  <code>hexo new &quot;文件名&quot;，找到source/_posts路径下的.md文件开始编写，要用Markdown语法</code></p>
+<h5 id="如何写博客"><a href="#如何写博客" class="headerlink" title="如何写博客"></a>如何写博客</h5><p>  <code>hexo new &quot;文件名&quot;，找到source/_posts路径下的 .md文件开始编写，要用Markdown语法，此外用到的images文件夹要放在 public/2016/08/10/技术板块 类似的目录下</code></p>
 <p>  <code>hexo generate(或者 hexo g) 更新博客</code></p>
 <p>  <code>hexo server(或者hexo s) 启动服务器</code></p>
 <p>  <code>hexo deploy(或者hexo d) 上传到github</code></p>

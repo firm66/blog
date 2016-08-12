@@ -91,7 +91,7 @@
     <link href="https://firm66.github.io/blog/2016/08/11/SD%E5%8D%A1%E4%BF%AE%E5%A4%8D/"/>
     <id>https://firm66.github.io/blog/2016/08/11/SD卡修复/</id>
     <published>2016-08-11T00:02:11.000Z</published>
-    <updated>2016-08-11T01:01:14.166Z</updated>
+    <updated>2016-08-12T07:11:21.149Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;SD卡（Secure Digital Memory Card）中文翻译为安全数码卡，是一种基于半导体快闪记忆器的新一代记忆设备，它被广泛地于便携式装置上使用，例如数码相机、个人数码助理(PDA)和多媒体播放器等。<a id="more"></a>SD卡由日本松下、东芝及美国SanDisk公司于1999年8月共同开发研制。大小犹如一张邮票的SD记忆卡，重量只有2克，但却拥有高记忆容量、快速数据传输率、极大的移动灵活性以及很好的安全性。    </p>
 <h5 id="那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下："><a href="#那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下：" class="headerlink" title="那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下："></a>那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下：</h5><h3 id="工具-原料"><a href="#工具-原料" class="headerlink" title="工具/原料"></a>工具/原料</h3><p>  <code>windows命令行</code></p>

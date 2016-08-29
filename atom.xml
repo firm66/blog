@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://firm66.github.io/blog/"/>
-  <updated>2016-08-22T03:03:43.532Z</updated>
+  <updated>2016-08-29T12:53:33.268Z</updated>
   <id>https://firm66.github.io/blog/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>标签云</title>
+    <link href="https://firm66.github.io/blog/2016/08/29/%E5%AD%97%E7%AC%A6%E4%BA%91/"/>
+    <id>https://firm66.github.io/blog/2016/08/29/字符云/</id>
+    <published>2016-08-29T11:24:36.000Z</published>
+    <updated>2016-08-29T12:53:33.268Z</updated>
+    
+    <content type="html"><![CDATA[<p>  学E-charts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对E-charts做一些总结，嘿嘿。<a id="more"></a><br>   <i class="fa fa-cog fa-spin fa-lg fa-fw"></i><a href="links/wordCloud.html">我的博客标签云</a><br>   <i class="fa fa-beer fa-spin fa-lg fa-fw"></i>gdfgd<br>   <i class="fa fa-leaf fa-spin fa-lg fa-fw"></i>gdfgd</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  学E-charts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对E-charts做一些总结，嘿嘿。
+    
+    </summary>
+    
+      <category term="WEB前端" scheme="https://firm66.github.io/blog/categories/WEB%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="WEB前端学习路线" scheme="https://firm66.github.io/blog/tags/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>青春</title>
@@ -92,9 +115,9 @@
     <link href="https://firm66.github.io/blog/2016/08/21/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     <id>https://firm66.github.io/blog/2016/08/21/WEB前端学习路线/</id>
     <published>2016-08-21T01:29:41.000Z</published>
-    <updated>2016-08-21T03:09:43.455Z</updated>
+    <updated>2016-08-23T02:22:28.103Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识。<br><a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：<br><code>必学：BootStrap、EasyUI、JQueryUI、Less/Sass</code><br><code>图表： E-chart</code><br><code>移动端： zepto.js</code></p>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识。<br><a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：<br><code>必学：BootStrap、EasyUI、JQueryUI、Less/Sass</code><br><code>图表： E-Charts</code><br><code>移动端： zepto.js</code></p>
 ]]></content>
     
     <summary type="html">
@@ -217,7 +240,7 @@
     <link href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
     <id>https://firm66.github.io/blog/2016/08/10/技术板块/</id>
     <published>2016-08-10T01:47:13.000Z</published>
-    <updated>2016-08-15T12:11:38.268Z</updated>
+    <updated>2016-08-29T11:39:15.242Z</updated>
     
     <content type="html"><![CDATA[<p>  &emsp;&emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。<a id="more"></a><br><!--toc--></p>
 <hr>
@@ -228,9 +251,8 @@
 <h5 id="如何更换主题"><a href="#如何更换主题" class="headerlink" title="如何更换主题"></a>如何更换主题</h5><p>  <code>下载主题到themes文件夹，然后改根目录下_config.yml中的theme和languages</code></p>
 <p>  <code>进行主题的配置，每种主题配置方法稍有不同</code></p>
 <p>  <code>运行 hexo g 和 hexo s 不断的调试</code></p>
-<h5 id="如何删除多余的分类-categories"><a href="#如何删除多余的分类-categories" class="headerlink" title="如何删除多余的分类(categories)"></a>如何删除多余的分类(categories)</h5><p>  <code>首先删除根目录下的db.json文件</code></p>
-<p>  <code>然后 hexo clean ，注意hexo clean要谨慎使用，昨天一个hexo clean 所有图片都没了，建议你们提前做好备份</code> </p>
-<p>  <code>最后 hexo g -d</code></p>
+<h5 id="如何删除多余的分类-categories"><a href="#如何删除多余的分类-categories" class="headerlink" title="如何删除多余的分类(categories)"></a>如何删除多余的分类(categories)</h5><p>  <code>法一、可以直接找到public/categories文件下，删除多余的文件夹即可，删除多余的标签也是同样的方法。</code></p>
+<p>  <code>法二、首先删除根目录下的db.json文件然后 hexo clean ，注意hexo clean要谨慎使用，昨天一个hexo clean 所有图片都没了，建议你们提前做好备份，最后 hexo g -d。</code> </p>
 <h5 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h5><ul>
 <li><a href="https://jayzangwill.github.io/blog/index.html" target="_blank" rel="external">hexo搭建博客教程</a></li>
 <li><a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">tranquilpeak主题配置</a></li>

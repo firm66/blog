@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="main_0" style="width: 600px;height:400px;"></div>
+		
+		  <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+		<script type="text/javascript">    
+		//路径配置
+		  require.config({    
+            paths:{   
+                 echarts: 'http://echarts.baidu.com/build/dist'
+            }  
+        });  
+          // 使用 
+        require(  
+            [  
+                'echarts',  
+                'echarts/chart/wordCloud' //记得改这个
+            ],  
+             function (ec) {  
+                // 基于准备好的dom，初始化echarts图表  
+			 var myChart = ec.init(document.getElementById('main_0')); 
+			 
+
+function createRandomItemStyle() {
+    return {
+        normal: {
+            color: 'rgb(' + [
+                Math.round(Math.random() * 160),
+                Math.round(Math.random() * 160),
+                Math.round(Math.random() * 160)
+            ].join(',') + ')'
+        }
+    };
+}
+
+option = {
+    title: {
+        text: 'firm66\'s blog',
+        link: 'https://firm66.github.io/blog/'
+    },
+    tooltip: {
+        show: true
+    },
+    series: [{
+        name: 'Google Trends',
+        type: 'wordCloud',
+        size: ['80%', '80%'],
+        textRotation : [0, 45, 90, -45],
+        textPadding: 0,
+        autoSize: {
+            enable: true,
+            minSize: 14
+        },
+        data: [
+            {
+                name: "WEB前端",
+                value: 10000,
+                itemStyle: {
+                    normal: {
+                        color: 'black'
+                    }
+                }
+            },
+            {
+                name: "技术板块",
+                value: 6181,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "励志文库",
+                value: 4386,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "资源干货",
+                value: 4055,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "随笔",
+                value: 2467,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "青春",
+                value: 2244,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "hexo+github搭建博客",
+                value: 1898,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "好用的软件总结",
+                value: 1484,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "phpStudy安装教程",
+                value: 1112,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "web前端学习路线",
+                value: 965,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "我的书架",
+                value: 847,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "女生的梦想，蛮好的!",
+                value: 582,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "简历",
+                value: 555,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "GitHub",
+                value: 550,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "软件安装教程",
+                value: 462,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "我的微博",
+                value: 366,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "我的知乎",
+                value: 360,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "博客分类",
+                value: 282,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "博客归档",
+                value: 273,
+                itemStyle: createRandomItemStyle()
+            },
+            {
+                name: "博客标签",
+                value: 265,
+                itemStyle: createRandomItemStyle()
+            }
+        ]
+    }]
+};
+                    
+			  myChart.setOption(option); 
+			 }
+           );
+		</script>
+		
+	</body>
+</html>

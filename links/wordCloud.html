@@ -5,8 +5,8 @@
 		<title></title>
 	</head>
 	<body>
-		<div id="main" style="width: 600px;height:400px;"></div>
-		<script src="js/esl.js" type="text/javascript" charset="utf-8"></script>
+		<div id="main_0" style="width: 600px;height:400px;"></div>
+		
 		  <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
 		<script type="text/javascript">    
 		//路径配置
@@ -23,7 +23,7 @@
             ],  
              function (ec) {  
                 // 基于准备好的dom，初始化echarts图表  
-			 var myChart = ec.init(document.getElementById('main')); 
+			 var myChart = ec.init(document.getElementById('main_0')); 
 			 
 
 function createRandomItemStyle() {
@@ -41,7 +41,7 @@ function createRandomItemStyle() {
 option = {
     title: {
         text: 'firm66\'s blog',
-        link: 'http://www.google.com/trends/hottrends'
+        link: 'https://firm66.github.io/blog/'
     },
     tooltip: {
         show: true

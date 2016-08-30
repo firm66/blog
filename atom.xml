@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://firm66.github.io/blog/"/>
-  <updated>2016-08-30T06:04:38.659Z</updated>
+  <updated>2016-08-30T08:40:26.945Z</updated>
   <id>https://firm66.github.io/blog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://firm66.github.io/blog/2016/08/30/%E6%88%91%E7%9A%84%E4%B9%A6%E6%9E%B6/"/>
     <id>https://firm66.github.io/blog/2016/08/30/我的书架/</id>
     <published>2016-08-30T05:36:02.000Z</published>
-    <updated>2016-08-30T06:04:38.659Z</updated>
+    <updated>2016-08-30T08:40:26.945Z</updated>
     
     <content type="html"><![CDATA[<p>关于前端的书籍，从入门到精通。<a id="more"></a></p>
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i class="fa fa-leaf fa-spin fa-lg fa-fw"><a href="images/index.html">firm66 B o o K</a></i></p>
@@ -67,7 +67,7 @@
     <link href="https://firm66.github.io/blog/2016/08/22/%E9%9D%92%E6%98%A5/"/>
     <id>https://firm66.github.io/blog/2016/08/22/青春/</id>
     <published>2016-08-22T02:44:26.000Z</published>
-    <updated>2016-08-22T03:03:43.532Z</updated>
+    <updated>2016-08-30T08:54:13.359Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;青春不是年华，而是心境；青春不是桃面、丹唇、柔膝，而是深沉的意志，恢宏的想象，炙热的恋情；青春是生命的深泉在涌流。<a id="more"></a><br><img src="images/2016-08-22_105947.png" alt="images_01.png"></p>
 ]]></content>
@@ -90,7 +90,7 @@
     <link href="https://firm66.github.io/blog/2016/08/22/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E6%80%BB%E7%BB%93/"/>
     <id>https://firm66.github.io/blog/2016/08/22/好用的软件总结/</id>
     <published>2016-08-22T01:30:58.000Z</published>
-    <updated>2016-08-22T03:00:29.449Z</updated>
+    <updated>2016-08-30T08:53:24.508Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;软件是一个很神奇的东西，虽然不懂原理，暂且收集起来用用，在这里给大家分享几款比较实用又很666666的工具。<a id="more"></a><br><!--toc--></p>
 <h4 id="滚动截屏工具FSCapture"><a href="#滚动截屏工具FSCapture" class="headerlink" title="滚动截屏工具FSCapture;"></a>滚动截屏工具<a href="http://pan.baidu.com/s/1ntiFNML" target="_blank" rel="external">FSCapture</a>;</h4><p>  1.下载安装后，双击FSCapture.exe启动软件，到你希望截大图的页面!点击<code>捕获滚动窗口</code>开始截图!<br>  <img src="images/01.png" alt="images_1.png"><br>  2.截图开始，有两种模式，一种自动滚屏点击<code>鼠标左键</code>即可自动捕捉窗口全部页面。一种手动，按住<code>CTRL键</code>，点击右侧的滑块开始！  按<code>ESC键</code>停止滚动，然后它会直接跳转到截图完成的界面！</p>
@@ -116,7 +116,7 @@
     <link href="https://firm66.github.io/blog/2016/08/21/%E5%A5%B3%E7%94%9F%E7%9A%84%E6%A2%A6%E6%83%B3/"/>
     <id>https://firm66.github.io/blog/2016/08/21/女生的梦想/</id>
     <published>2016-08-21T12:20:40.000Z</published>
-    <updated>2016-08-21T13:00:37.114Z</updated>
+    <updated>2016-08-30T08:32:57.605Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;虽然我不是学霸，不懂CPA是什么，但是一直很喜欢这篇文章，这也是我向往的生活。现实中不能这么轻松快乐的生活，但是心灵却可以得到释放。<br><a id="more"></a><br><img src="images/01.png" alt="images_1.png"></p>
 ]]></content>
@@ -139,7 +139,7 @@
     <link href="https://firm66.github.io/blog/2016/08/21/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     <id>https://firm66.github.io/blog/2016/08/21/WEB前端学习路线/</id>
     <published>2016-08-21T01:29:41.000Z</published>
-    <updated>2016-08-23T02:22:28.103Z</updated>
+    <updated>2016-08-30T08:46:49.981Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识。<br><a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：<br><code>必学：BootStrap、EasyUI、JQueryUI、Less/Sass</code><br><code>图表： E-Charts</code><br><code>移动端： zepto.js</code></p>
 ]]></content>
@@ -162,7 +162,7 @@
     <link href="https://firm66.github.io/blog/2016/08/12/phpstudy%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
     <id>https://firm66.github.io/blog/2016/08/12/phpstudy安装教程/</id>
     <published>2016-08-12T00:27:03.000Z</published>
-    <updated>2016-08-13T00:30:35.175Z</updated>
+    <updated>2016-08-30T08:31:34.980Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;phpStudy是一个PHP调试环境的程序集成包。我们学前台的用来搭建服务器很好用，不过node更好用一点。。<a id="more"></a>这里我们先学一下phpstudy安装。</p>
 <hr>
@@ -205,7 +205,7 @@
     <link href="https://firm66.github.io/blog/2016/08/11/%E5%88%B7%E6%9C%BA/"/>
     <id>https://firm66.github.io/blog/2016/08/11/刷机/</id>
     <published>2016-08-11T02:17:47.000Z</published>
-    <updated>2016-08-12T07:29:08.931Z</updated>
+    <updated>2016-08-30T08:23:07.185Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;很多机友都不太清楚如何给魅族MX进行固件升级，也就是常说的刷机，那就让小编来教教你吧。<a id="more"></a></p>
 <h3 id="法一、用电脑下载固件（系统）："><a href="#法一、用电脑下载固件（系统）：" class="headerlink" title="法一、用电脑下载固件（系统）："></a>法一、用电脑下载固件（系统）：</h3><p>1.在电脑上先下载想要刷机的那个系统（可以去魅族官网下载）。<br>2.通过USB连接线将电脑与魅族手机连接，并将update.bin文件拷贝至手机磁盘（SD卡）根目录下，<br>3.断开USB连接，关闭魅族MX的电源。<br>4.开机同时长按“电源键”及“音量+键”，进入刷机页面（如图），<br><img src="photos/1.png" alt="photos_1"><br>5.直至出现“系统更新SystemUpgrade”，<br>6.点击“系统更新System Upgrade”升级；这里要补充的一点是，如果你的手机已经Root了，就一定要清楚数据。以免刷机出现错误。即使是没root的都建议选择清楚数据，比较升级系统肯定会带来新的数据，建议把旧的数据清楚掉。至于App软件那些，可以升级后再去下载。<br>（“重新启动Restart”是退出升级）<br><img src="photos/2.png" alt="photos_1"><br><img src="photos/3.png" alt="photos_1"><br>7.升级完成后，点击设置，关于手机。到那里可以查看自己的手机系统是否更新成功。如下图所示：<br><img src="photos/6.png" alt="photos_1"><br>注：(1).升级过程当中不允许断电。<br>(2).手机升级系统之前一定要做好数据备份，以免数据丢失。<br>(3).也可以在第2步（将update.bin文件拷贝至手机磁盘根目录下）之后点击update.bin 固件，直接进入系统升级。<br><img src="photos/4.png" alt="photos_1"><br><img src="photos/5.png" alt="photos_1"></p>
@@ -233,7 +233,7 @@
     <link href="https://firm66.github.io/blog/2016/08/11/SD%E5%8D%A1%E4%BF%AE%E5%A4%8D/"/>
     <id>https://firm66.github.io/blog/2016/08/11/SD卡修复/</id>
     <published>2016-08-11T00:02:11.000Z</published>
-    <updated>2016-08-13T03:17:26.668Z</updated>
+    <updated>2016-08-30T08:25:02.241Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;SD卡（Secure Digital Memory Card）中文翻译为安全数码卡，是一种基于半导体快闪记忆器的新一代记忆设备，它被广泛地于便携式装置上使用，例如数码相机、个人数码助理(PDA)和多媒体播放器等。<a id="more"></a>SD卡由日本松下、东芝及美国SanDisk公司于1999年8月共同开发研制。大小犹如一张邮票的SD记忆卡，重量只有2克，但却拥有高记忆容量、快速数据传输率、极大的移动灵活性以及很好的安全性。    </p>
 <h5 id="那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下："><a href="#那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下：" class="headerlink" title="那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下："></a>那么SD卡受损了怎么办，其实我们可以使用windows下的chkdsk的dos命令来进行恢复，具体步骤如下：</h5><h3 id="工具-原料"><a href="#工具-原料" class="headerlink" title="工具/原料"></a>工具/原料</h3><p>  <code>windows命令行</code></p>

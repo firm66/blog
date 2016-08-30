@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>饼状图</title>
+		<script src="js/echarts.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jq-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		  <div id="main" style="width: 600px;height:400px;"></div>
+		  <script type="text/javascript">
+		   var myChart = echarts.init(document.getElementById('main'));  //第一步，基于准备好的dom，初始化echarts实例
+		 option = {    //第二步，指定图表的配置项和数据
+    title : {
+        text: '某站点用户访问来源',
+        subtext: '纯属虚构，蛤蛤',
+        x:'center'  //居中
+    },
+    tooltip : {  //饼图都这样设置
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"  //提示框浮层内容格式器，支持字符串模板和回调函数两种形式。
+    },
+    legend: {  //图例组件
+        orient: 'vertical', //图例组件的布局朝向，  vertical：竖着排列       horizontal：默认值，横着排列
+        left: 'left',
+        data: ['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+    },
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],  //位置
+            data:[ //变成异步的需要改变这里
+                {value:335, name:'直接访问'},
+                {value:310, name:'邮件营销'},
+                {value:234, name:'联盟广告'},
+                {value:135, name:'视频广告'},
+                {value:1548, name:'搜索引擎'}
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+    myChart.setOption(option); //第三步，使用刚指定的配置项和数据显示图表。
+		  </script>
+		  
+		
+		  <!--南丁格尔图-->
+		   <div id="main2" style="width: 600px;height:400px;"></div>
+		   <script type="text/javascript">
+		   var myChart2= echarts.init(document.getElementById('main2'));  //第一步，
+		   	option = {
+    backgroundColor: '#2c343c',
+    visualMap: {
+        show: false,  //不显示 visualMap 组件，只用于明暗度的映射
+        min: 80,
+        max: 600,   //映射的最大值和最小值
+        inRange: {
+            colorLightness: [0, 1]   //明暗度的范围是[0,1]
+        }
+    },
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius: '55%',
+            data:[
+                {value:235, name:'视频广告'},
+                {value:274, name:'联盟广告'},
+                {value:310, name:'邮件营销'},
+                {value:335, name:'直接访问'},
+                {value:400, name:'搜索引擎'}
+            ],
+            roseType: 'angle',  //饼图通过这个变成南丁格尔图
+            label: {
+                normal: {
+                    textStyle: {  //文字颜色
+                        color: 'rgba(255, 255, 255, 0.3)'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    lineStyle: {
+                        color: 'rgba(255, 255, 255, 0.3)'  //视觉引导线
+                    }
+                }
+            },
+            itemStyle: { //图形样式，可设置图表内图形的默认样式和强调样式（悬浮时样式）
+                normal: {
+                    //color: '#c23531',//设置扇形为红色,默认是多种颜色的
+                    shadowBlur: 200,  //阴影大小
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'  //阴影颜色
+                }
+            }
+        }
+    ]
+};
+ 	myChart2.setOption(option);
+		   </script>
+		  
+		  
+	</body>
+</html>

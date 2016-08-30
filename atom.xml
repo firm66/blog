@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://firm66.github.io/blog/"/>
-  <updated>2016-08-29T12:53:33.268Z</updated>
+  <updated>2016-08-30T02:06:45.541Z</updated>
   <id>https://firm66.github.io/blog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://firm66.github.io/blog/2016/08/29/%E5%AD%97%E7%AC%A6%E4%BA%91/"/>
     <id>https://firm66.github.io/blog/2016/08/29/字符云/</id>
     <published>2016-08-29T11:24:36.000Z</published>
-    <updated>2016-08-29T12:53:33.268Z</updated>
+    <updated>2016-08-30T02:06:45.541Z</updated>
     
     <content type="html"><![CDATA[<p>  学E-charts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对E-charts做一些总结，嘿嘿。<a id="more"></a><br>   <i class="fa fa-cog fa-spin fa-lg fa-fw"></i><a href="links/wordCloud.html">我的博客标签云</a><br>   <i class="fa fa-beer fa-spin fa-lg fa-fw"></i>gdfgd<br>   <i class="fa fa-leaf fa-spin fa-lg fa-fw"></i>gdfgd</p>
 ]]></content>

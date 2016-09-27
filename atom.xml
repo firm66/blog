@@ -115,9 +115,12 @@
     <link href="https://firm66.github.io/blog/2016/08/21/%E5%A5%B3%E7%94%9F%E7%9A%84%E6%A2%A6%E6%83%B3/"/>
     <id>https://firm66.github.io/blog/2016/08/21/女生的梦想/</id>
     <published>2016-08-21T12:20:40.000Z</published>
-    <updated>2016-08-30T08:32:57.605Z</updated>
+    <updated>2016-08-30T11:08:36.638Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;虽然我不是学霸，不懂CPA是什么，但是一直很喜欢这篇文章，这也是我向往的生活。现实中不能这么轻松快乐的生活，但是心灵却可以得到释放。<br><a id="more"></a><br><img src="images/01.png" alt="images_1.png"></p>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;虽然我不是学霸，不懂CPA是什么，但是一直很喜欢这篇文章，这也是我向往的生活。现实中不能这么轻松快乐的生活，但是心灵却可以得到释放。<br><a id="more"></a><br><img src="images/01.png" alt="images_1.png"><br><div class="alert info no-icon"><p>女孩子，一定要好好读书，选个好就业的专业或你喜爱的专业，将来拥有一份体面的工作。</p>
+</div>
+<div class="alert success no-icon"><p>选择＞努力，但既然选择了，不管是对是错，就必须坚持，通向目的地的道路不止亿条。</p>
+</div></p>
 ]]></content>
     
     <summary type="html">
@@ -138,14 +141,16 @@
     <link href="https://firm66.github.io/blog/2016/08/21/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     <id>https://firm66.github.io/blog/2016/08/21/WEB前端学习路线/</id>
     <published>2016-08-21T01:29:41.000Z</published>
-    <updated>2016-08-30T08:46:49.981Z</updated>
+    <updated>2016-08-30T11:19:54.355Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识。<br><a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：<br><code>必学：BootStrap、EasyUI、JQueryUI、Less/Sass</code><br><code>图表： E-Charts</code><br><code>移动端： zepto.js</code></p>
-]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识。<a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：<br><span class="highlight-text green">必学：BootStrap、EasyUI、JQueryUI、Less/Sass</span> &emsp;&emsp;  
+
+<span class="highlight-text danger">图表：E-Charts</span></p>
+<span class="highlight-text primary">移动端： zepto.js</span>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&amp;emsp;&amp;emsp;前端入门容易，学精不易，得学习很多知识。&lt;br&gt;
+      &lt;p&gt;&amp;emsp;&amp;emsp;前端入门容易，学精不易，得学习很多知识。
     
     </summary>
     

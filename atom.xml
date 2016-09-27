@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://firm66.github.io/blog/"/>
-  <updated>2016-08-30T08:59:17.983Z</updated>
+  <updated>2016-09-27T00:42:33.672Z</updated>
   <id>https://firm66.github.io/blog/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>我的书架</title>
-    <link href="https://firm66.github.io/blog/2016/08/30/%E6%88%91%E7%9A%84%E4%B9%A6%E6%9E%B6/"/>
-    <id>https://firm66.github.io/blog/2016/08/30/我的书架/</id>
-    <published>2016-08-30T05:36:02.000Z</published>
-    <updated>2016-08-30T08:59:17.983Z</updated>
+    <link href="https://firm66.github.io/blog/2016/09/27/%E6%88%91%E7%9A%84%E4%B9%A6%E6%9E%B6/"/>
+    <id>https://firm66.github.io/blog/2016/09/27/我的书架/</id>
+    <published>2016-09-27T00:41:22.000Z</published>
+    <updated>2016-09-27T00:42:33.672Z</updated>
     
     <content type="html"><![CDATA[<p>关于前端的书籍，从入门到精通。<a id="more"></a><br><i class="fa fa-leaf fa-spin fa-lg fa-fw"></i><a href="images/index.html">firm66的书架</a></p>
 ]]></content>

@@ -1,0 +1,562 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="firm66的博客">
+    <title>用Grunt搭建自动化的web前端开发环境 - firm66的博客</title>
+    <meta name="author" content="firm66">
+    
+    
+        <link rel="icon" href="https://firm66.github.io/blog/assets/images/favicon.png">
+    
+    
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/blog/atom.xml">
+    
+    <meta name="description" content="没有最完美的教程，只有适合自己的方法，追求简单。">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="用Grunt搭建自动化的web前端开发环境">
+<meta property="og:url" content="https://firm66.github.io/blog/2016/11/06/grunt教程/index.html">
+<meta property="og:site_name" content="firm66的博客">
+<meta property="og:description" content="没有最完美的教程，只有适合自己的方法，追求简单。">
+<meta property="og:image" content="https://firm66.github.io/blog/images/image_1.png">
+<meta property="og:image" content="https://firm66.github.io/blog/images/image_2.png">
+<meta property="og:image" content="https://firm66.github.io/blog/images/image_4.png">
+<meta property="og:image" content="https://firm66.github.io/blog/images/image_5.png">
+<meta property="og:updated_time" content="2016-11-06T11:31:05.872Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用Grunt搭建自动化的web前端开发环境">
+<meta name="twitter:description" content="没有最完美的教程，只有适合自己的方法，追求简单。">
+<meta name="twitter:image" content="https://firm66.github.io/blog/images/image_1.png">
+    
+    
+        
+    
+    
+        <meta property="og:image" content="https://firm66.github.io/blog/assets/images/favicon.png"/>
+    
+    
+        <meta property="og:image" content="https://firm66.github.io/blog/2016/11/06/grunt教程/images/grunt.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="https://firm66.github.io/blog/2016/11/06/grunt教程/images/grunt.png" />
+    
+    
+        <meta property="og:image" content="https://firm66.github.io/blog/2016/11/06/grunt教程/images/image-9.jpg"/>
+        <meta class="swiftype" name="image" data-type="enum" content="https://firm66.github.io/blog/2016/11/06/grunt教程/images/image-9.jpg" />
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/blog/assets/css/style-nuvue6sithwirecbhvw3dkaobiojqvtadsnhguwi7k04xklybw5djl1smadp.min.css">
+    <!--STYLES END-->
+    
+    
+   <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f25f87815d8a00ffebda8b6e967e0dc8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+
+    <head>
+<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/solarized_dark.min.css">
+<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script><!--highlightjs-->
+    </head>
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
+
+
+    
+        
+            
+        
+    
+
+<header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/blog/ ">firm66的博客</a>
+    </h1>
+    
+        
+            <a  class="header-right-picture open-algolia-search"
+                href="#about">
+        
+        
+            <img class="header-picture" src="/blog/assets/images/favicon.png"/>
+        
+        </a>
+    
+</header>
+
+            <!-- Define author's picture -->
+
+
+
+        
+    
+
+<nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/blog/#about">
+                    <img class="sidebar-profile-picture" src="/blog/assets/images/favicon.png"/>
+            </a>
+            <span class="sidebar-profile-name">firm66</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/blog/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home fa-spin"></i>
+                    <span class="sidebar-button-desc">首页</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/blog/all-categories"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark fa-spin"></i>
+                    <span class="sidebar-button-desc">分类</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/blog/all-tags"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-tags fa-spin"></i>
+                    <span class="sidebar-button-desc">标签</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/blog/all-archives"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive fa-spin"></i>
+                    <span class="sidebar-button-desc">归档</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="http://firm66.github.io" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-smile-o fa-spin"></i>
+                    <span class="sidebar-button-desc">简历</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/firm66" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github fa-spin"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="http://weibo.com/5317663618/profile?topnav=1&wvr=6&is_all=1" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-weibo fa-spin"></i>
+                    <span class="sidebar-button-desc">Weibo</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://www.zhihu.com/people/firm66" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-coffee fa-spin"></i>
+                    <span class="sidebar-button-desc">Zhihu</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/blog/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss fa-spin"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+        <div class="post-header-cover
+                    text-center
+                    "
+             style="background-image:url('/blog/2016/11/06/grunt教程/images/image-9.jpg');"
+             data-behavior="3">
+            
+        </div>
+
+            <div id="main" data-behavior="3"
+                 class="hasCover
+                        hasCoverMetaOut
+                        hasCoverCaption">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <span class="post-header-cover-caption caption">The Grunt Study</span>
+    
+    
+        <div class="post-header main-content-wrap text-center">
+    
+        <h1 class="post-title" itemprop="headline">
+            用Grunt搭建自动化的web前端开发环境
+        </h1>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" datetime="2016-11-06T13:40:56+08:00">
+	
+		    11月 06, 2016
+    	
+    </time>
+    
+        <span>发布在 </span>
+        
+    <a class="category-link" href="/blog/categories/WEB前端/">WEB前端</a>
+
+
+    
+</div>
+
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <p> 没有最完美的教程，只有适合自己的方法，追求简单。<br> <a id="more"></a></p>
+<ol>
+<li>安装node.js，然后在控制台中安装全局的grunt-cli <code>npm install -g grunt-cli</code></li>
+<li>新建一个文件夹grunt，里边新建下面的几个文件，<br><img src="images/image_1.png" alt="image_1.png"><br>在package.json中写下面的内容，不然的话grunt插件安装不上，<br><img src="images/image_2.png" alt="image_2.png"><br>然后右键，git bash，安装grunt <code>npm install grunt --save-dev</code>，会生成node_modules目录</li>
+<li><p>详细配置package.json(需要自己配置)，在命令行输入<code>npm i</code>批量安装插件，这里注意一定要安装完全，(这样的好处是不用像<code>npm install grunt-contrib-jshint --save-dev</code>一个一个安装)，</p>
+<!--    ![image_3.png](images/image_3.png)-->
+<pre>
+<code>{
+"name": "grunt_test",
+"version": "1.0.0",
+"devDependencies": {
+ "grunt": "^1.0.1",
+ "grunt-contrib-clean": "^1.0.0",
+ "grunt-contrib-concat": "^1.0.1",
+ "grunt-contrib-csslint": "^1.0.0",
+ "grunt-contrib-htmlmin": "^1.0.0",
+ "grunt-contrib-cssmin": "^1.0.0",
+ "grunt-contrib-imagemin": "^1.0.0",
+ "grunt-contrib-jshint": "^1.0.0",
+ "grunt-contrib-uglify": "^1.0.1",
+ "grunt-contrib-watch": "^1.0.0"
+}
+}
+</code>
+</pre>
+</li>
+<li><p>配置Gruntfile.js(看API配置)， (.csslint文件自己写)，可参考下面代码：<br><img src="images/image_4.png" alt="image_4.png"><br> <img src="images/image_5.png" alt="image_5.png"></p>
+</li>
+<li><p>把项目文件放进src， <code>grunt</code>命令压缩html，css，js，查错，<code>grunt imagemin</code>压缩图片，压缩后的文件都在build文件夹中</p>
+</li>
+<li><p>修改链接和位置，就可以传到github上了(package.json和Gruntfile.js文件也要上传到github)</p>
+<p>注意事项：-必须要看<a href="http://www.gruntjs.net/getting-started" target="_blank" rel="external">Grunt中文文档</a></p>
+<p>-压缩代码前需要把如Angular.js,Bootstrap.min.js的文件单独分开</p>
+</li>
+</ol>
+
+            
+        </div>
+    </div>
+    <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">标签</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/blog/tags/WEB前端学习路线/">WEB前端学习路线</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/blog/2016/11/06/优秀网站推荐/"  data-tooltip="优秀网站推荐">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/blog/2016/08/29/字符云/" data-tooltip="标签云(ECharts)">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#ds-thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            
+                <section id="comments">
+   <!-- 多说评论框 start -->
+	  <div class="ds-thread" data-thread-key="post-grunt教程" data-title="用Grunt搭建自动化的web前端开发环境" data-url="https://firm66.github.io/blog/blog/2016/11/06/grunt教程/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:'firm66'};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+  </section>
+            
+        
+    </div>
+</article>
+
+
+
+                   <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2016 firm66. All Rights Reserved.
+    </span>
+    <span id="busuanzi_container_site_uv">
+  |您是本站第<span id="busuanzi_value_site_uv"></span>位访客
+</span>
+</footer>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/blog/2016/11/06/优秀网站推荐/"  data-tooltip="优秀网站推荐">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/blog/2016/08/29/字符云/" data-tooltip="标签云(ECharts)">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#ds-thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-google-plus"></i><span class="">分享到 Google+</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://firm66.github.io/blog/blog/2016/11/06/grunt教程/">
+                <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        
+
+
+    
+        
+    
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="/blog/assets/images/favicon.png"/>
+        
+            <h4 id="about-card-name">firm66</h4>
+        
+            <h5 id="about-card-bio"><p>author.bio</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>author.job</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                河南
+            </h5>
+        
+    </div>
+</div>
+
+        
+<div id="cover" style="background-image:url('/blog/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/blog/assets/js/script-i4qo6jx6jji9fg0dftpya6ivemizsbow4fhow76d8dwpm7m1wbvi378ssumx.min.js"></script>
+<!--SCRIPTS END-->
+
+    
+        <script type="text/javascript">
+            var duoshuoQuery = {short_name:'firm66'};
+            (function() {
+                var ds = document.createElement('script');
+                ds.type = 'text/javascript';ds.async = true;
+                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                ds.charset = 'UTF-8';
+                (document.getElementsByTagName('head')[0]
+                || document.getElementsByTagName('body')[0]).appendChild(ds);
+            })();
+        </script>
+    
+
+
+
+</html>

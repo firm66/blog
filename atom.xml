@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://firm66.github.io/blog/"/>
-  <updated>2016-08-30T07:45:35.296Z</updated>
+  <updated>2016-11-06T12:46:34.095Z</updated>
   <id>https://firm66.github.io/blog/</id>
   
   <author>
@@ -16,18 +16,111 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>标签云</title>
-    <link href="https://firm66.github.io/blog/2016/08/29/%E5%AD%97%E7%AC%A6%E4%BA%91/"/>
-    <id>https://firm66.github.io/blog/2016/08/29/字符云/</id>
-    <published>2016-08-29T11:24:36.000Z</published>
-    <updated>2016-08-30T07:45:35.296Z</updated>
+    <title>优秀网站推荐</title>
+    <link href="https://firm66.github.io/blog/2016/11/06/%E4%BC%98%E7%A7%80%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
+    <id>https://firm66.github.io/blog/2016/11/06/优秀网站推荐/</id>
+    <published>2016-11-06T12:23:41.000Z</published>
+    <updated>2016-11-06T12:46:34.095Z</updated>
     
-    <content type="html"><![CDATA[<p>  学E-charts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对E-charts做一些总结，嘿嘿。<a id="more"></a><br>   <i class="fa fa-cog fa-spin fa-lg fa-fw"></i><a href="links/wordCloud.html">我的博客标签云</a><br>   <img src="images/01.png" alt="images_01.png"><br>   <i class="fa fa-futbol-o fa-spin fa-lg fa-fw"></i><a href="links/test02.html">1.饼图</a><br>     <img src="images/02.png" alt="images_02.png"><br>   <i class="fa fa-sun-o fa-spin fa-lg fa-fw"></i><a href="links/嵌套饼图.html">2.嵌套饼图</a><br>     <img src="images/03.png" alt="images_03.png"></p>
+    <content type="html"><![CDATA[<p> 这里有关于前端的优秀网站，一起学习吧。<br> <a id="more"></a></p>
+<ul>
+<li><a href="http://yfdxs.com/emmet-advanced.html" target="_blank" rel="external">Emment的高级功能与使用</a></li>
+<li><a href="http:www.w3cfuns.com/" target="_blank" rel="external">前端网(W3Cfuns)</a></li>
+<li><a href="http://www.daqianduan.com/nav" target="_blank" rel="external">前端网址导航</a></li>
+<li><a href="http://www.whycss.com/" target="_blank" rel="external">前端的总结</a></li>
+<li><a href="https://segmentfault.com/a/1190000004070468" target="_blank" rel="external">前端知识体系</a></li>
+<li><a href="https://github.com/JacksonTian/fks" target="_blank" rel="external">前端知识结构图</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" target="_blank" rel="external">Git教程</a></li>
+<li><a href="http://www.5icool.org/" target="_blank" rel="external">各种特效</a></li>
+<li><a href="http://www.jq22.com/" target="_blank" rel="external">JQery插件库</a></li>
+<li><a href="https://threejs.org/" target="_blank" rel="external">three.js官网</a></li>
+</ul>
+<hr>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;  学E-charts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对E-charts做一些总结，嘿嘿。
+      &lt;p&gt; 这里有关于前端的优秀网站，一起学习吧。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="资源干货" scheme="https://firm66.github.io/blog/categories/%E8%B5%84%E6%BA%90%E5%B9%B2%E8%B4%A7/"/>
+    
+    
+      <category term="网站推荐" scheme="https://firm66.github.io/blog/tags/%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Grunt搭建自动化的web前端开发环境</title>
+    <link href="https://firm66.github.io/blog/2016/11/06/grunt%E6%95%99%E7%A8%8B/"/>
+    <id>https://firm66.github.io/blog/2016/11/06/grunt教程/</id>
+    <published>2016-11-06T05:40:56.000Z</published>
+    <updated>2016-11-06T11:31:05.872Z</updated>
+    
+    <content type="html"><![CDATA[<p> 没有最完美的教程，只有适合自己的方法，追求简单。<br> <a id="more"></a></p>
+<ol>
+<li>安装node.js，然后在控制台中安装全局的grunt-cli <code>npm install -g grunt-cli</code></li>
+<li>新建一个文件夹grunt，里边新建下面的几个文件，<br><img src="images/image_1.png" alt="image_1.png"><br>在package.json中写下面的内容，不然的话grunt插件安装不上，<br><img src="images/image_2.png" alt="image_2.png"><br>然后右键，git bash，安装grunt <code>npm install grunt --save-dev</code>，会生成node_modules目录</li>
+<li><p>详细配置package.json(需要自己配置)，在命令行输入<code>npm i</code>批量安装插件，这里注意一定要安装完全，(这样的好处是不用像<code>npm install grunt-contrib-jshint --save-dev</code>一个一个安装)，</p>
+<!--    ![image_3.png](images/image_3.png)-->
+<pre>
+<code>{
+"name": "grunt_test",
+"version": "1.0.0",
+"devDependencies": {
+ "grunt": "^1.0.1",
+ "grunt-contrib-clean": "^1.0.0",
+ "grunt-contrib-concat": "^1.0.1",
+ "grunt-contrib-csslint": "^1.0.0",
+ "grunt-contrib-htmlmin": "^1.0.0",
+ "grunt-contrib-cssmin": "^1.0.0",
+ "grunt-contrib-imagemin": "^1.0.0",
+ "grunt-contrib-jshint": "^1.0.0",
+ "grunt-contrib-uglify": "^1.0.1",
+ "grunt-contrib-watch": "^1.0.0"
+}
+}
+</code>
+</pre>
+</li>
+<li><p>配置Gruntfile.js(看API配置)， (.csslint文件自己写)，可参考下面代码：<br><img src="images/image_4.png" alt="image_4.png"><br> <img src="images/image_5.png" alt="image_5.png"></p>
+</li>
+<li><p>把项目文件放进src， <code>grunt</code>命令压缩html，css，js，查错，<code>grunt imagemin</code>压缩图片，压缩后的文件都在build文件夹中</p>
+</li>
+<li><p>修改链接和位置，就可以传到github上了(package.json和Gruntfile.js文件也要上传到github)</p>
+<p>注意事项：-必须要看<a href="http://www.gruntjs.net/getting-started" target="_blank" rel="external">Grunt中文文档</a></p>
+<p>-压缩代码前需要把如Angular.js,Bootstrap.min.js的文件单独分开</p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 没有最完美的教程，只有适合自己的方法，追求简单。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="WEB前端" scheme="https://firm66.github.io/blog/categories/WEB%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="WEB前端学习路线" scheme="https://firm66.github.io/blog/tags/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>标签云(ECharts)</title>
+    <link href="https://firm66.github.io/blog/2016/08/29/%E5%AD%97%E7%AC%A6%E4%BA%91/"/>
+    <id>https://firm66.github.io/blog/2016/08/29/字符云/</id>
+    <published>2016-08-29T11:24:36.000Z</published>
+    <updated>2016-11-06T05:33:00.525Z</updated>
+    
+    <content type="html"><![CDATA[<p>  学ECharts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对ECharts做一些总结，嘿嘿。<a id="more"></a><br>   <i class="fa fa-cog fa-spin fa-lg fa-fw"></i><a href="links/wordCloud.html">我的博客标签云</a><br>   <img src="images/01.png" alt="images_01.png"><br>   <i class="fa fa-futbol-o fa-spin fa-lg fa-fw"></i><a href="links/test02.html">1.饼图(ECharts3)</a><br>     <img src="images/02.png" alt="images_02.png"><br>     <!--链接要写成英文的--><br>   <i class="fa fa-empire fa-spin fa-lg fa-fw"></i><a href="links/bingtu.html">2.嵌套饼图(ECharts2)</a><br>     <img src="images/03.png" alt="images_03.png"><br>    <i class="fa fa-life-ring fa-spin fa-lg fa-fw"></i><a href="links/circletu.html">3.环形图(ECharts2)</a><br>     <img src="images/04.png" alt="images_03.png"><br>      <img src="images/05.png" alt="images_03.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  学ECharts学了几天了,觉得用这个做一个博客的标签云蛮不错，能随机变幻。顺便对ECharts做一些总结，嘿嘿。
     
     </summary>
     
@@ -118,16 +211,28 @@
     <link href="https://firm66.github.io/blog/2016/08/21/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     <id>https://firm66.github.io/blog/2016/08/21/WEB前端学习路线/</id>
     <published>2016-08-21T01:29:41.000Z</published>
-    <updated>2016-08-30T11:19:54.355Z</updated>
+    <updated>2016-11-06T05:38:34.963Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识。<a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：<br><span class="highlight-text green">必学：BootStrap、EasyUI、JQueryUI、Less/Sass</span> &emsp;&emsp;  
+    <content type="html"><![CDATA[<p>&emsp;&emsp;前端入门容易，学精不易，得学习很多知识，这里只写重要的。<a id="more"></a><br><img src="images/01.png" alt="images_01.png"><br>其他：</p>
+<ol>
+<li><span class="highlight-text green">相关框架：BootStrap、EasyUI </span>                          
 
-<span class="highlight-text danger">图表：E-Charts</span></p>
-<span class="highlight-text primary">移动端： zepto.js</span>]]></content>
+2. <span class="highlight-text blue">版本控制：Git/SVN/Mercurial </span>    
+</li>
+<li><span class="highlight-text danger">图表：ECharts/Highcharts </span>    
+
+4. <span class="highlight-text red">构建工具及包管理器:Grunt/Gulp </span>  
+</li>
+<li><span class="highlight-text primary">CSS预处理器：Sass/Less </span>  
+
+6. <span class="highlight-text yellow">移动端：Zepto、JQueryMobile</span>
+</li>
+</ol>
+<!--purple orange cyan success warning -->]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&amp;emsp;&amp;emsp;前端入门容易，学精不易，得学习很多知识。
+      &lt;p&gt;&amp;emsp;&amp;emsp;前端入门容易，学精不易，得学习很多知识，这里只写重要的。
     
     </summary>
     
@@ -245,7 +350,7 @@
     <link href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
     <id>https://firm66.github.io/blog/2016/08/10/技术板块/</id>
     <published>2016-08-10T01:47:13.000Z</published>
-    <updated>2016-08-30T09:06:43.758Z</updated>
+    <updated>2016-11-06T11:51:10.171Z</updated>
     
     <content type="html"><![CDATA[<p>  &emsp;&emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。<a id="more"></a><br><!--toc--></p>
 <hr>
@@ -260,8 +365,9 @@
 <p>  <code>法二、首先删除根目录下的db.json文件然后 hexo clean ，注意hexo clean要谨慎使用，昨天一个hexo clean 所有图片都没了，建议你们提前做好备份，最后 hexo g -d。</code> </p>
 <h5 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h5><ul>
 <li><a href="https://jayzangwill.github.io/blog/index.html" target="_blank" rel="external">hexo搭建博客教程</a></li>
-<li><a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">tranquilpeak主题配置</a></li>
+<li><a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">tranquilpeak主题配置</a>&nbsp;&nbsp;<a href="http://www.mjiayou.com/2014/08/18/hexo-theme-modify-based-light/" target="_blank" rel="external">tranquilpeak主题修改</a></li>
 <li><a href="https://hexo.io/zh-cn/api/" target="_blank" rel="external">hexo官方文档</a></li>
+<li><a href="http://www.tuicool.com/articles/IvmIFrn" target="_blank" rel="external">添加百度统计1</a>&nbsp;&nbsp;<a href="http://www.tuicool.com/articles/IvmIFrn" target="_blank" rel="external">添加百度统计2</a></li>
 </ul>
 <h5 id="如何优化主题"><a href="#如何优化主题" class="headerlink" title="如何优化主题!"></a>如何优化主题!</h5><p>   小编配置完主题后，添加了多说评论插件，并设置成了头像360度旋转；<br>   安装了百度统计插件，发现不能在网站上显示，只好又安装了不蒜子；<br>   想设置回到顶部底部，不知道这个主题怎样设置，那就先这样吧。。。</p>
 <hr>

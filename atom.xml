@@ -327,7 +327,7 @@
     <link href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"/>
     <id>https://firm66.github.io/blog/2016/08/10/技术板块/</id>
     <published>2016-08-10T01:47:13.000Z</published>
-    <updated>2016-11-07T10:37:23.077Z</updated>
+    <updated>2016-11-08T03:12:00.551Z</updated>
     
     <content type="html"><![CDATA[<p>  &emsp;&emsp;搭博客是我一直梦寐以求的，今天终于实现了。我的这个主题是tranquilpeak，  花了很长时间配置，终于弄好了，很开森。后来发现每种主题的配置是不一样的。<a id="more"></a><br><!--toc--></p>
 <hr>
@@ -339,16 +339,22 @@
 <p>  <code>进行主题的配置，每种主题配置方法稍有不同</code></p>
 <p>  <code>运行 hexo g 和 hexo s 不断的调试</code></p>
 <h5 id="如何删除多余的分类-categories"><a href="#如何删除多余的分类-categories" class="headerlink" title="如何删除多余的分类(categories)"></a>如何删除多余的分类(categories)</h5><p>  <code>法一、可以直接找到public/categories文件下，删除多余的文件夹即可，删除多余的标签也是同样的方法。</code></p>
-<p>  <code>法二、首先删除根目录下的db.json文件然后 hexo clean ，注意hexo clean要谨慎使用，昨天一个hexo clean 所有图片都没了，建议你们提前做好备份，最后 hexo g -d。</code> </p>
+<p>  <code>法二、首先删除根目录下的db.json文件然后 hexo clean ，注意hexo clean要谨慎使用，昨天一个hexo clean 所有图片都没了，建议你们提前做好备份，最后 hexo g。</code> </p>
 <h5 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h5><ul>
 <li><a href="https://jayzangwill.github.io/blog/index.html" target="_blank" rel="external">hexo搭建博客教程</a></li>
 <li><a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">tranquilpeak主题配置</a>&nbsp;&nbsp;<a href="http://www.mjiayou.com/2014/08/18/hexo-theme-modify-based-light/" target="_blank" rel="external">tranquilpeak主题修改</a></li>
 <li><a href="https://hexo.io/zh-cn/api/" target="_blank" rel="external">hexo官方文档</a></li>
 <li><a href="http://www.tuicool.com/articles/IvmIFrn" target="_blank" rel="external">添加百度统计1</a>&nbsp;&nbsp;<a href="http://www.tuicool.com/articles/IvmIFrn" target="_blank" rel="external">添加百度统计2</a></li>
 </ul>
-<h5 id="如何优化主题"><a href="#如何优化主题" class="headerlink" title="如何优化主题!"></a>如何优化主题!</h5><p>   -小编配置完主题后，添加了多说评论插件，并设置成了头像360度旋转；<br>   -安装了百度统计插件，发现不能在网站上显示，只好又安装了不蒜子；<br>   -回到顶部,标签云试了不行，先放弃<br>   -<a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">设置代码块行号</a>，<a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" target="_blank" rel="external">hexo博客-加密</a></p>
+<h5 id="如何优化主题"><a href="#如何优化主题" class="headerlink" title="如何优化主题!"></a>如何优化主题!</h5><ul>
+<li><strong>初级：</strong>小编配置完主题后，添加了多说评论插件，并设置成了头像360度旋转；</li>
+<li>安装了百度统计插件，发现不能在网站上显示，只好又安装了不蒜子；</li>
+<li>回到顶部，标签云，置顶功能试了不行，先放弃</li>
+<li><strong>高级：</strong><a href="https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md" target="_blank" rel="external">设置代码块行号</a>，<a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" target="_blank" rel="external">hexo博客-加密</a></li>
+<li><a href="http://blog.magicer.xyz/2016/04/add-sharesdk/" target="_blank" rel="external">添加ShareSDK分享功能</a>/多说分享</li>
+</ul>
 <hr>
-<h5 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h5><p>  很多东西看不懂或者是很多英文，还好有百度，以后要好好学英语了。这虽然不是一个特别完美的博客，实用就好，记录我的学习和成长过程！</p>
+<h5 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h5><p>   很多东西看不懂或者是很多英文，还好有百度，以后要好好学英语了。这虽然不是一个特别完美的博客，实用就好，记录我的学习和成长过程！</p>
 ]]></content>
     
     <summary type="html">

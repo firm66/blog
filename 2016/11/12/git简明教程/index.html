@@ -23,7 +23,7 @@
 <meta property="og:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Git是一款免费、开源的分布式版本控制系统，用于敏捷高效的处理任何或大或小的项目。">
 <meta property="og:image" content="https://firm66.github.io/blog/images/image_1.png">
 <meta property="og:image" content="https://firm66.github.io/blog/images/image_2.jpg">
-<meta property="og:updated_time" content="2016-11-13T08:19:03.711Z">
+<meta property="og:updated_time" content="2016-11-13T08:35:23.077Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git简明教程">
 <meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Git是一款免费、开源的分布式版本控制系统，用于敏捷高效的处理任何或大或小的项目。">
@@ -273,7 +273,7 @@ var _hmt = _hmt || [];
 <p><code>$ git log</code>查看提交历史，以便回退<br><code>$ git reset --hard HEAD^</code>/<code>$ git reset --hard 3628164</code>版本回退</p>
 <p><code>$ git reflog</code>查看命令历史，以便回到未来<br><code>$ git reset --hard 4354564</code>回到未来</p>
 <p><code>$ git checkout -- file</code>提交前撤销修改<br><code>$ git reset HEAD file</code>，<code>$ git checkout -- file</code>添加到暂存区后，想放弃修改<br><code>$ git rm file</code>删除文件，<br><code>$ git checkout -- file</code> 删错了，恢复文件到最新版本<br> <strong>基本概念:</strong><br>工作区:就是你在电脑里能看到的目录,test文件夹就是一个工作区，比如我们环境中当前的目录。<br>版本库:工作区有一个隐藏目录.git 这个不算工作区，而是Git的版本库。<br>暂存区:英文叫stage,或index。一般存放在git目录下的index文件(.git/index)中，所以我们把暂存区时也叫作索引(index).<br>Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。<br><img src="images/image_2.jpg" alt="image_2.jpg"><br>我们把文件往Git版本库里添加的时候，是分两步执行的：<br>第一步是用<code>$ git add</code>把文件添加进去，实际上就是把文件修改添加到暂存区；<br>第二步是用<code>$ git commit</code>提交更改，实际上就是把暂存区的所有内容提交到当前分支。</p>
-<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><p> <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" target="_blank" rel="external">廖雪峰Git教程</a><br> <a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages教程</a><br> <a href="http://blog.csdn.net/chaihuasong/article/details/37911723" target="_blank" rel="external">常见错误解决</a></p>
+<h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><p> -<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" target="_blank" rel="external">廖雪峰Git教程</a><br> -<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages教程</a><br> -<a href="http://blog.csdn.net/chaihuasong/article/details/37911723" target="_blank" rel="external">常见错误解决</a></p>
 
             
         </div>
